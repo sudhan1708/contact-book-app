@@ -3,7 +3,7 @@
 2. Run **pip3 install -r requirements.txt** under the root directory of the project
 2. Go inside the app directory and run **python3 main.py**
 3. Console will prompt you to enter the choice of operation
-4. Enter the choice of operation that you want to perform
+4. Enter the choice of operation that you want to perform (Eg 1,2,3 etc)
 
 ### Config
 Provide the json file name in the config.yaml file under the config folder.

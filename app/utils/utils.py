@@ -43,6 +43,6 @@ def get_phone_number():
     phone_number = input("Enter phone number: ")
     while not is_phone_number_valid(phone_number):
         print("Please enter a valid phone number")
-        phone = input("Enter phone number: ")
+        phone_number = input("Enter phone number: ")
 
     return phone_number

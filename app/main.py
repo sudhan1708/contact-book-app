@@ -72,6 +72,9 @@ def main():
 
         elif choice == '4':
             name = input("Enter name to delete: ")
+            if contact_manager.search_contact_by_name(name) is None:
+                print("Contact not found!!!")
+                continue
             if contact_manager.delete_contact(name):
                 print("Contact deleted successfully!")
             else:
